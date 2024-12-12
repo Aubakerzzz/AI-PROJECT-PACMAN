@@ -1,9 +1,5 @@
 # grading.py
 # ----------
-#--
-
-
-"Common code for autograders"
 
 import cgi
 import time
