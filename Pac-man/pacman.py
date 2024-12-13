@@ -517,7 +517,7 @@ def readCommand( argv ):
     args = dict()
 
     # Fix the random seed
-    if options.fixRandomSeed: random.seed('cs188')
+    if options.fixRandomSeed: random.seed('')
 
     # Choose a layout
     args['layout'] = layout.getLayout( options.layout )
